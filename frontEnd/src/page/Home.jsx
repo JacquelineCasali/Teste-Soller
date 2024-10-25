@@ -7,7 +7,8 @@ import Hearder from "../components/Header/Hearder"
 import { useState } from "react";
 import service from "../services/service.json"
 import system from "../services/system.json"
-import Singup from "../components/Singup/Singup";
+import Middle from "../components/Middle/Middle";
+import System from "../components/system/System";
 
 export default function Home() {
   const [systems] = useState(system);
@@ -19,12 +20,13 @@ export default function Home() {
       <Hearder/>
       {/* <System/> */}
       
- <Singup
+      <Middle/>
+ <System
 test={servicea}
 
 />
 
-<Singup
+<System
 test={systems}
 
 />

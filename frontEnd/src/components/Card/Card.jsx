@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react'
+import { useEffect, useState } from 'react'
 import depoimento from "../../services/depoimento.json"
 
 import Loading from "../Loading/Loading";
@@ -39,10 +39,7 @@ export default function Card() {
     />
 
 
-  //   (loading && <Loading />) || 
-  //   <Carousel test={test}
-  //   onLer={handleLer}
-  // />
+
      }
      
      

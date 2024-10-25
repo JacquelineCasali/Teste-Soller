@@ -1,4 +1,3 @@
-import React from "react";
 import "./Container.css";
 import Button from "../Button/Button";
 import styles from "../Button/Button.module.css";
@@ -8,12 +7,12 @@ export default function Container() {
     <div className="divcontainer">
       
       {/* <div className="sectionText">ola</div>   */}
-      <div className="sectionText">
+      <div className="sectionTextc">
        
-        <div className="top">
+        {/* <div className="top">
           <h6>Get the Sun to power your home</h6>
           <h1>All the power that you need for your house is now available</h1>
-             </div>
+             </div> */}
       <div className="screen">
       <img src={"/image/Macbook.png"} alt="" /> 
       </div>
@@ -25,9 +24,10 @@ export default function Container() {
 
   
       <div className="eclipse">
-      <Button text="Request a Quote" theme={styles.amarelo} styles={{margin:"140px"}} />
+        
+       <Button text="Request a Quote" theme={styles.amarelo} styles={{margin:"140px"}} />
     <p className="textRight">Egestas fringilla aliquam leo</p>
-      
+       
       </div>
     
    
@@ -35,9 +35,7 @@ export default function Container() {
       
      
        
-        {/* <div className="right">
-        <Button text="Request a Quote" theme={styles.amarelo} />
-        </div> */}
+
 
     
      

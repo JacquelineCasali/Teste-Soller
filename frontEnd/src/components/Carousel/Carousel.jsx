@@ -1,7 +1,7 @@
-import React, { useRef } from "react";
+import { useRef } from "react";
 import "./Carousel.css";
 import styles from "../Button/Button.module.css" ;
-
+import propTypes from "prop-types";
 
 import { BsArrowLeftCircle,  BsArrowRightCircle } from "react-icons/bs";
 import CardDetalhe from "../Card/CardDetalhe";
@@ -89,3 +89,6 @@ theme={styles.amarelo}
     </section>
   );
 }
+Carousel.propTypes = {
+  data: propTypes.shape({}),
+}.isRequired;

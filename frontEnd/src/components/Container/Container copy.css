@@ -1,0 +1,70 @@
+.divcontainer {
+    background: var(--roxoClaro);
+    /* height: 949px; */
+    /* width: 100%; */
+       background-blend-mode: multiply;
+    display: flex;
+    justify-content: flex-end;
+  gap: 80px;
+  }
+  
+ 
+
+  
+  .sectionTextc {
+    padding-top: 80px;
+       width: 894px;
+    gap: 24px;
+  
+    display: flex;
+    /* margin-left: 200px;
+    margin-top: 40px; */
+  
+    justify-content: center;
+    flex-direction: column;
+  }
+  .sectionTextc .top{
+    display: flex;
+    gap: 8px;
+    flex-direction: column;
+    /* width: 830px; */
+    padding-left: 80px;
+  }
+  
+  .eclipse {
+    /* width: 782px;
+    height: 780px; */
+   /* background: #A252EE; */
+   /* width: 750px;
+   height: 450px; */
+    background-repeat: no-repeat;
+   background-image: url(../../../public/image/Ellipse1.png); 
+    padding-top: 160px;
+    background-size: auto;
+    display: flex;
+    object-fit: cover;
+    background-position: top right;
+    height: 450px;
+ 
+   /* border-radius: 0 0 50% 50%  ; */
+    /* background-size: 725px 520px; */
+    gap: 16px;
+    flex-direction: column;
+    align-items: center;
+    /* background-position:  top right ; */
+  }
+
+  .textRight{
+      font-weight: 400;
+      font-size: var(--xm);
+      color: var(--branco);
+      line-height: 28.8px;
+  
+  }
+  
+  .screen {
+  display: flex;
+    object-fit: cover;
+    z-index: 2;
+  }
+  
