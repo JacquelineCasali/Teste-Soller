@@ -48,43 +48,42 @@ export default function Navbar() {
           </div>
         </div>
       </header>
-<div className="col">
-  <div className="bannerleft">
-    <div className="sectionTextcol">
-      <h1 className="sectionTextH1">Get the Sun to Power Your Home</h1>
-      <p className="sectionTextParagrafo" >Viverra viverra nibh enim et aliquam, enim. Tempor, sit mus viverra orci dui consequat turpis scelerisque.</p>
-      <Button text="Request a Quote" theme={styles.roxo} />
-    </div>
-    <div className="sectionTextcol2">
-      
-      <p className="sectionTextParagrafo2" >“Viverra viverra nibh enim et aliquam, enim. Tempor, sit mus viverra orci dui consequat turpis scelerisque faucibus.”</p>
-      <div className="user-card">
-          <div className="image">
-            {<img src={"/image/courtney.jpg"} alt="" /> ? <img src={"/image/courtney.jpg"} alt="" /> : ""}
+      <div className="col">
+        <div className="bannerleft">
+          <div className="sectionTextcol">
+            <h1 className="sectionTextH1">Get the Sun to Power Your Home</h1>
+            <p className="sectionTextParagrafo">
+              Viverra viverra nibh enim et aliquam, enim. Tempor, sit mus
+              viverra orci dui consequat turpis scelerisque.
+            </p>
+            <Button text="Request a Quote" theme={styles.roxo} />
           </div>
-          <div className="detalis">
-            <span className="nome">Rwanda Melflor</span>
+          <div className="sectionTextcol2">
+            <p className="sectionTextParagrafo2">
+              “Viverra viverra nibh enim et aliquam, enim. Tempor, sit mus
+              viverra orci dui consequat turpis scelerisque faucibus.”
+            </p>
+            <div className="user-card">
+              <div className="image">
+                {<img src={"/image/courtney.jpg"} alt="" /> ? (
+                  <img src={"/image/courtney.jpg"} alt="" />
+                ) : (
+                  ""
+                )}
+              </div>
+              <div className="detalis">
+                <span className="nome">Rwanda Melflor</span>
 
-            <span className="categoria">zerowaste.com</span>
+                <span className="categoria">zerowaste.com</span>
+              </div>
+            </div>
           </div>
         </div>
 
-
-
-    </div>
-
-
-  </div>
-
-
-<div className="bannerright">
-  <img className="bannerimg" 
-  
-  src="/image/header.png"  alt="" />
-</div>
-</div>
-
-
+        {/* <div className="bannerright">
+          <img className="bannerimg" src="/image/header.png" alt="" />
+        </div> */}
+      </div>
     </section>
   );
 }

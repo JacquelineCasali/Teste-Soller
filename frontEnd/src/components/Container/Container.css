@@ -1,40 +1,74 @@
 .divcontainer {
-  background: var(--roxoClaro);
-  height: 949px;
-  /* width: 100%; */
-     background-blend-mode: multiply;
+  padding: 80px;
+  gap: 80px;
+ 
+  /* height: 1282px;  */
+     background-repeat: no-repeat;
+       object-fit: cover;
+ display: flex;
+ flex-direction: column;
+ /* align-items: center; */
+   
+ /* justify-content: center; */
+    background: url(./image/Ellipse1.png);
+    background-size: auto;
+    background-position: right top;
+    background-repeat: no-repeat;
+ object-fit: cover;
+
+background-color: var(--roxoClaro);
+}
+
+.sectionTextc {
+  gap: 24px;
   display: flex;
-  justify-content: flex-end;
-gap: 80px;
+   flex-direction: row;
+ 
 }
+.topBarText{
 
-.sectionTextc{
+ gap: 20px;
 display: flex;
-align-items: center;
 flex-direction: column;
 
-padding: 80px;
-width: 894px;
-gap: 24px;
-justify-content: center;
+}
 
+.caption{
+  color: var(--amarelo);
+  font-weight: 500;
+  font-size:var(--lg) ;
+  line-height: 22px;
 
 }
+
+
+.secundary{
+  color: var(--branco);
+ font-weight: 800;
+ font-size:var(--ls) ;
+ line-height: 62px;
+
+width: 800px;
+ }
+.screen{
+  width: 750px;
+  object-fit: cover;
+
+}
+.screenI{
+  margin: 24px  0  0 120px;
+}
+
 .eclipse{
-  background-repeat: no-repeat;
-  background-image: url(./image/Ellipse1.png); 
-   padding-top: 160px;
-   width: 480px;
-/* justify-content: center; */
-gap: 16px;
-flex-direction: column;
-align-items: center;
-   display: flex;
-
-   object-fit: cover;
-
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  align-items: center;
+  padding-top: 60px;
 }
-.textRight{
+
+
+.eclipse .textRight{
   font-weight: 400;
   font-size: var(--xm);
   color: var(--branco);
@@ -42,10 +76,5 @@ align-items: center;
 
 }
 
-  
-.screen {
-  display: flex;
-    object-fit: cover;
-    z-index: 2;
-  }
+
   

@@ -1,9 +1,32 @@
 
-header {
-  width: 100%;
+.header {
+  /* padding: 80px; */
+  gap: 50px;
 
-  border-bottom: 1px solid blue;
-  background: var(--branco);
+  /* height: 835px;  */
+
+       object-fit: cover;
+ display: flex;
+ flex-direction: column;
+ /* background-size: 694px; */
+
+ /* align-items: center; */
+   
+ /* justify-content: center; */
+    background: url(./image/header1.png);
+    background-size: auto;
+    background-position: right top;
+    background-repeat: no-repeat;
+ object-fit: cover;
+
+/* background-color: var(--roxoClaro); */
+}
+
+header {
+  /* width: 100%; */
+
+
+  /* background: var(--branco); */
 
   top: 0;
   left: 0;
@@ -62,16 +85,10 @@ header .container {
 .btn-group {
   display: flex;
   align-items: center;
-
-  width: 505px;
-  height: 120px;
+padding: 80px;
+  /* width: 505px;
+  height: 120px; */
   gap: 16px;
-  background-image: url("/image/eclipse.png");
-  background-size: 525px 120px;
-  background-repeat: no-repeat;
-  object-fit: cover;
-
-  border-radius: 60% 5% 0% 0%;
 }
 
 .fone {
@@ -96,22 +113,23 @@ header .container {
 .col {
   display: flex;
   flex-direction: row;
-  justify-content: flex-end;
+
+  /* justify-content: flex-end; */
 }
 .bannerleft {
   display: flex;
   flex-direction: column;
-  gap: 100px;
-
+  gap: 128px;
   height: 614px;
-  padding: 60px;
-  margin-bottom: 20px;
+  padding-left: 60px;
+  /* margin-bottom: 20px; */
 }
 
 .sectionTextcol{
 gap: 24px;
 display: flex;
 flex-direction: column;
+width: 550px;
 }
 .sectionTextH1{
   font-weight: 800;
@@ -131,6 +149,7 @@ flex-direction: column;
   gap: 16px;
   display: flex;
   flex-direction: column;
+  width: 570px;
   }
 .sectionTextParagrafo2{
   font-weight: 400;
