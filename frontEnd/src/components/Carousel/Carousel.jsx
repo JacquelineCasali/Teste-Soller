@@ -8,15 +8,9 @@ import CardDetalhe from "../Card/CardDetalhe";
 import Button from "../Button/Button";
 
 export default function Carousel({ test, onLer}) {
-  // const [data, setData] = useState([]);
+  
   const carousel = useRef(null);
 
-  // useEffect(() => {
-  //   fetch("http://localhost:3000/services/depoimento.json")
-  //     .then((response) => response.json())
-  //     .then(setData);
-
-  // }, []);
 
   function handleLeftClick(e) {
     e.preventDefault();

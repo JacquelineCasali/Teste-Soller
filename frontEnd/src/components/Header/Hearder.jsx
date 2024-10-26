@@ -44,7 +44,11 @@ export default function Navbar() {
 
               <p className="buttonText">555 818 282</p>
             </div>
-            <Button text="Request a Quote" theme={styles.roxo} />
+        <div>
+          
+        </div>
+            <Button text="Request a Quote" theme={styles.roxo}  />
+           
           </div>
         </div>
       </header>
@@ -79,10 +83,6 @@ export default function Navbar() {
             </div>
           </div>
         </div>
-
-        {/* <div className="bannerright">
-          <img className="bannerimg" src="/image/header.png" alt="" />
-        </div> */}
       </div>
     </section>
   );

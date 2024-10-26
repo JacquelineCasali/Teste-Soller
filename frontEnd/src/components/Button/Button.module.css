@@ -3,10 +3,10 @@
   height: 64px;
   padding: 20px 24px;
   border-radius: 100px;
-  /* border: 2px solid var(--textColor); */
+
   font-weight: 700;
 
-  /* color:var(--amarelo); */
+ 
   cursor: pointer;
   display: flex;
   justify-content: center;
@@ -16,7 +16,7 @@
   font-size: var(--xl);
   line-height: 24px;
   letter-spacing: 0.5px;
-  /* color: var(--textColor); */
+
 }
 
 .amarelo {

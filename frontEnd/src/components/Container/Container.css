@@ -2,15 +2,13 @@
   padding: 80px;
   gap: 80px;
  
-  /* height: 1282px;  */
+
      background-repeat: no-repeat;
        object-fit: cover;
  display: flex;
  flex-direction: column;
- /* align-items: center; */
-   
- /* justify-content: center; */
-    background: url(./image/Ellipse1.png);
+
+    background: url(/image/Ellipse1.png);
     background-size: auto;
     background-position: right top;
     background-repeat: no-repeat;

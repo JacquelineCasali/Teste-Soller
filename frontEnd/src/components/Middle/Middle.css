@@ -1,55 +1,98 @@
-.middle{
+.middle {
+  padding: 80px;
+  gap: 80px;
 
- padding: 80px;
- gap: 80px;
+  background-repeat: no-repeat;
+  object-fit: cover;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 
- /* height: 1282px;  */
-    background-repeat: no-repeat;
-      object-fit: cover;
-display: flex;
-flex-direction: column;
-align-items: center;
-  
-justify-content: center;
-   background-image: url(./image/Circles.png);
-   background-size: contain;
-   background-position: center center;
-   background-repeat: no-repeat;
-object-fit: cover;
+  justify-content: center;
+  background-image: url("/image/Circles.png");
+  background-size: contain;
+  background-position: center center;
+  background-repeat: no-repeat;
+  object-fit: cover;
 }
-.imageDesktop{
+.imageDesktop {
   width: 1100px;
   object-fit: cover;
 }
 
-.middle .topBar{
+.middle .topBar {
   display: flex;
   /* gap: 24px; */
   align-items: center;
   flex-direction: column;
+}
+.middle .topBar h6 {
+  color: var(--marron);
+  font-weight: 500;
+  font-size: var(--lg);
+  line-height: 22px;
+  text-align: center;
+}
+.middle .topBar h1 {
+  color: var(--black);
+  font-weight: 800;
+  font-size: var(--ls);
+  line-height: 62px;
+  text-align: center;
+}
+
+.middle .topBar .paragrafo {
+  color: var(--black);
+  font-weight: 400;
+  font-size: var(--lg);
+  line-height: 36px;
+  text-align: center;
+  width: 800px;
+}
+@media screen and (max-width: 478px) {
+
+
+  .middle {
+  
+  
  
-}
-.middle .topBar h6{
- color: var(--marron);
-font-weight: 500;
-font-size:var(--lg) ;
-line-height: 22px;
-text-align: center;
-}
-.middle .topBar h1{
-  color: var(--black);
- font-weight: 800;
- font-size:var(--ls) ;
- line-height: 62px;
- text-align: center;
+    width: 375px;
+  
+    padding: 48px 16px;
+    display: flex;
+    gap: 24px;
+  }
 
- }
+  .imageDesktop {
+    width: 358px;
+  
+  }
+  
+.middle .topBar {
+width: 343px;
+height: 158px;
+}
 
- .middle .topBar .paragrafo{
-  color: var(--black);
- font-weight: 400;
- font-size:var(--lg) ;
- line-height: 36px;
- text-align: center;
- width: 800px;
- }
+.middle .topBar h6 {
+  font-size: var(--m);
+  line-height: 17.6px;
+  text-align: center;
+}
+.middle .topBar h1 {
+
+  font-weight: 700;
+  font-size: var(--tr);
+  line-height: 35.2px;
+  text-align: center;
+}
+
+.middle .topBar .paragrafo {
+
+
+  font-size: var(--m);
+  line-height: 22.4px;
+  text-align: center;
+  width: 343px;
+}
+
+}
