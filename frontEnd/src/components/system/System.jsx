@@ -6,20 +6,7 @@ export default function System({test} ) {
 
   return (
     <section className="singup">
-      <div className="rectangle">
-        {<img className="rectangle15" src={test[0].imageapp} alt="" /> ? (
-          <img
-            className="rectangle15"
-            src={test[0].imageapp}
-            alt=""
-            style={{ objectFit: "cover" }}
-          />
-        ) : (
-          ""
-        )}
-      </div>
-
-      <div className="lefts">
+       <div className="lefts"  >
         <div className="top">
           <h6>{test[0].titlePrincipal}</h6>
           <h1>{test[0].titleSecundario}</h1>

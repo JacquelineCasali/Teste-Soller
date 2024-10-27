@@ -52,20 +52,22 @@ code {
     monospace;
 }
 
-
-
-@media screen and (max-width: 1200px){
-
+.invert{
+  display: flex;
+  
 }
 
-@media screen and (max-width: 990px){
+/* .rectangle123 {
+  width: 150px;
 
-}
-
-@media screen and (max-width: 800px){
-	
-}
-
+} */
 @media screen and (max-width: 480px){
+  .invert{
+    display: flex;
+    flex-direction: column-reverse;
+    width: 353px;
+   padding-bottom:  48px;
+  }
+
 
 }

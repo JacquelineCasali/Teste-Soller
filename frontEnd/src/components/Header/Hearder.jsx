@@ -19,7 +19,7 @@ export default function Navbar() {
               </li>
               <li>
                 {" "}
-                <Link to="/">Solutions</Link>
+                <Link to="#solutions">Solutions</Link>
               </li>
 
               <li>

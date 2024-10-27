@@ -59,8 +59,9 @@
     width: 375px;
   
     padding: 48px 16px;
-    display: flex;
+
     gap: 24px;
+  
   }
 
   .imageDesktop {
@@ -70,7 +71,7 @@
   
 .middle .topBar {
 width: 343px;
-height: 158px;
+height: 198px;
 }
 
 .middle .topBar h6 {

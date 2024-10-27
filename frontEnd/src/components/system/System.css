@@ -60,9 +60,9 @@
     color: var(--black);
     font-weight: 400;
     line-height: 28px;
-    /* height: 58px; */
+   
     text-align: justify;
-    /* width: 445px; */
+
   }
   
   
@@ -76,8 +76,8 @@
 
 .singup {
   
-  display: flex;
-  flex-direction: column-reverse;
+  /* display: flex; */
+  flex-direction: column;
 width: 375px;
 
   }
@@ -86,7 +86,7 @@ width: 375px;
      gap: 64px;
   padding: 0 16px;
   width: 375px;
-  /* height: 950px; */
+  height: 850px;
   
   }
 
@@ -142,7 +142,7 @@ width: 375px;
   
   .rectangle15 {
     width: 375px;
-  
+
   }
  
    

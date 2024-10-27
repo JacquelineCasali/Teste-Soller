@@ -1,0 +1,130 @@
+.mackbook {
+  padding: 80px;
+  object-fit: cover;
+  background: url(/image/Ellipse1.png);
+  background-size: 550px;
+  background-position: right top;
+  background-repeat: no-repeat;
+  background-color: var(--roxoClaro);
+  width: 100%;
+}
+.mackbookSection {
+  display: flex;
+  /* width: 60%; */
+  justify-content: space-between;
+}
+.sectionTextc {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  padding-left: 80px;
+}
+
+.topBarText {
+  gap: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.caption {
+  color: var(--amarelo);
+  font-weight: 500;
+  font-size: var(--lg);
+  line-height: 22px;
+}
+
+.secundary {
+  color: var(--branco);
+  font-weight: 800;
+  font-size: 48px;
+  line-height: 62px;
+
+  width: 700px;
+}
+
+.eclipse {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 16px;
+  align-items: center;
+  padding-top: 60px;
+}
+
+.eclipse .textRight {
+  font-weight: 400;
+  font-size: var(--xm);
+  color: var(--branco);
+  line-height: 28.8px;
+}
+
+.screenI {
+  width: 750px;
+  object-fit: cover;
+
+  padding: 32px 40px 80px 0;
+  display: flex;
+  justify-content: flex-start;
+}
+@media screen and (max-width: 478px) {
+
+  .mackbook {
+  background-color: var(--roxo);
+padding: 0;
+
+  width: 375px;
+  background-image: none;
+
+  }
+  .mackbookSection {
+    display: flex;
+    flex-direction: column;
+    padding: 48px 16px;
+  }
+  .sectionTextc {
+    width: 358px;
+    padding-left: 0;
+    gap: 16px;
+ 
+
+  }
+
+  
+  .caption {
+
+    font-size: var(--m);
+    line-height: 17.6px;
+    text-align: center;
+  }
+  
+  .secundary {
+
+    font-weight: 700;
+    font-size: var(--tr);
+    line-height: 35.2px;
+    text-align: center;
+    width: 358px;
+  }
+  
+
+  .eclipse .textRight {
+
+    font-size: var(--m);
+
+    line-height: 22.4px;
+
+  }
+  
+  .screenI {
+    width: 358px;
+    padding: 0 0 80px 0;
+    object-fit: cover;
+   background: url(/image/Ellipse2.png);
+    background-position: left bottom;
+    background-repeat: no-repeat;
+   }
+  .screen{
+    width: 358px;
+     
+  }
+    }
