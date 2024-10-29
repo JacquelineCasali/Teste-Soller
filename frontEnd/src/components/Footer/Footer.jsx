@@ -5,6 +5,9 @@ export default function Footer() {
   return (
     <footer>
       <section className="footer">
+ 
+
+    
         <img
           src={"/image/logoGrey.png"}
           alt=""
@@ -12,7 +15,7 @@ export default function Footer() {
         />
 
         <p className="companyName">@ 2023 Soller, Inc. All rights reserved.</p>
-
+    
         <div className="verticalMenu">
           <Link to={"/"} className="footerLink">
             Terms

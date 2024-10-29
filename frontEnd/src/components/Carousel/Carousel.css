@@ -73,7 +73,7 @@
   transform: scale(1.1);
   transition: 0.5s ease-in-out;
   box-shadow: rgb(0 0 0 / 50%) 0px 28px 45px;
-  /* box-shadow: rgb(0 0 0 / 12%) 0px 8px 24px; */
+
 }
 
 .icon {
@@ -144,7 +144,43 @@
 .seta:active {
   background-color: var(--branco);
 }
+@media screen and (max-width: 1024px) {
+  .section {
 
+    padding: 60px;
+
+  }
+
+  .tops {
+    display: flex;
+    flex-direction: column;
+  
+  }
+  .top .paragrafo {
+    width: 650px;
+
+  }
+
+}
+
+@media screen and (max-width: 768px) {
+  .section {
+
+    padding: 60px;
+
+  }
+
+  .tops {
+    display: flex;
+    flex-direction: column;
+  
+  }
+  .top .paragrafo {
+    width: 650px;
+
+  }
+  
+}
 @media screen and (max-width: 478px) {
   .section {
     padding: 48px 16px;

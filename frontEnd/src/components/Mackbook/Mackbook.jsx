@@ -4,8 +4,8 @@ import styles from "../Button/Button.module.css";
 export default function Mackbook() {
   return (
     <section className="mackbook">
-      <div className="mackbookSection">
-        <div className="sectionTextc">
+      <div className="mackbookSection" id="configure">
+        <div className="sectionTextc" >
           <h6 className="caption">Get the Sun to power your home</h6>
           <h1 className="secundary">
             All the power that you need for your house is now available

@@ -66,6 +66,98 @@
   display: flex;
   justify-content: flex-start;
 }
+@media screen and (max-width: 1024px) {
+  .mackbook {
+    padding: 40px;
+    background-size: 390px;
+    /* padding: 40px;
+    object-fit: cover;
+    background: url(/image/Ellipse1.png);
+    background-size: 350px;
+    background-position: right top;
+    background-repeat: no-repeat;
+    background-color: var(--roxoClaro); */
+    width: 100%;
+  }
+  .sectionTextc {
+  
+
+   
+    padding-left: 0px;
+  }
+  .secundary {
+   
+    font-size: 28px;
+    line-height: 32px;
+    width: 400px;
+  }
+  .eclipse {
+  
+    gap: 14px;
+
+    padding-top: 10px;
+  }
+  .screenI {
+    width: 650px;
+   padding:  32px 0 60px 0;
+  
+
+  }
+
+  .screen {
+    width: 650px;
+
+  
+
+  }
+ }
+
+
+@media screen and (max-width: 768px) {
+  .mackbook {
+    padding: 40px;
+    object-fit: cover;
+    background: url(/image/Ellipse1.png);
+    background-size: 350px;
+    background-position: right top;
+    background-repeat: no-repeat;
+    background-color: var(--roxoClaro);
+    width: 100%;
+  }
+  .sectionTextc {
+  
+
+   
+    padding-left: 0px;
+  }
+  
+  .eclipse {
+  
+    gap: 14px;
+
+    padding-top: 10px;
+  }
+  .secundary {
+   
+    font-size: 28px;
+    line-height: 32px;
+    width: 400px;
+  }
+  .screenI {
+    width: 750px;
+   padding:  32px 0 60px 0;
+  
+
+  }
+  .screen {
+    width: 650px;
+
+  
+
+  }
+  
+}
+
 @media screen and (max-width: 478px) {
 
   .mackbook {

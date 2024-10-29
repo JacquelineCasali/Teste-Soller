@@ -54,20 +54,40 @@ code {
 
 .invert{
   display: flex;
-  
+  /* align-items: center; */
+  /* width: 250px; */
 }
 
-/* .rectangle123 {
-  width: 150px;
+@media screen and (max-width: 1024px) {
+  .rectangle123 {
+    width: 350px;
+ 
+  }
+  
+   
+ }
 
-} */
+@media screen and (max-width: 768px) {
+ 
+  .rectangle123 {
+  width: 350px;
+
+}
+
+}
 @media screen and (max-width: 480px){
   .invert{
     display: flex;
     flex-direction: column-reverse;
-    width: 353px;
+  
+    width: 480px;
    padding-bottom:  48px;
+
+
+  
+  
   }
 
 
 }
+

@@ -3,7 +3,10 @@ import "./Middle.css";
 export default function Middle() {
   return (
     <section className="middle">
-      <div className="topBar">
+ 
+
+
+      <div className="topBar" id="solutions">
         <h6>No more waste</h6>
         <h1>Pick the Sun</h1>
         <p className="paragrafo">
@@ -12,8 +15,9 @@ export default function Middle() {
           pharetra sed in mauris elementum sollicitudin.
         </p>
       </div>
-
+     
       <img className="imageDesktop" src={"/image/Desktop.png"} alt="" />
+    
     </section>
   );
 }

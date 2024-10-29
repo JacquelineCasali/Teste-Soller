@@ -1,9 +1,9 @@
-import { Link } from "react-router-dom";
+// import { Link } from "react-router-dom";
 import "./Hearder.css";
 import Button from "../Button/Button";
 import styles from "../Button/Button.module.css";
 import { RiHeadphoneLine } from "react-icons/ri";
-
+import { Link, animateScroll as scroll } from "react-scroll";
 export default function Navbar() {
   // menu
 
@@ -19,15 +19,17 @@ export default function Navbar() {
               </li>
               <li>
                 {" "}
-                <Link to="#solutions">Solutions</Link>
+                <Link to="solutions">Solutions</Link>
               </li>
 
               <li>
-                <Link to="/">Services</Link>
+                <Link to="services"
+                 offset={-50}
+                >Services</Link>
               </li>
               <li>
                 {" "}
-                <Link to="/">Configure</Link>
+                <Link to="configure">Configure</Link>
               </li>
             </ul>
           </div>
@@ -44,9 +46,7 @@ export default function Navbar() {
 
               <p className="buttonText">555 818 282</p>
             </div>
-        <div>
-          
-        </div>
+   
             <Button text="Request a Quote" theme={styles.roxo}  />
            
           </div>
