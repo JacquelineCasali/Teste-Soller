@@ -1,16 +1,16 @@
 # Website Soller
 This Project is a soller website developed using React.js technology
 
+ # image  Project 
 
+ ![Captura de tela 2024-10-29 104019](https://github.com/user-attachments/assets/36b0ef8b-cb1c-414a-8369-ef19693090ab)
 
-<!-- # imagem do Projeto 
- <p align="center">
-  <img src="./site/src/assets/2023-08-01_144058.png" width="600px">
-</p> -->
+## Website - click here to visit the soller website
 
-## Principais Tecnologias 🚀
+https://teste-soller.vercel.app/
 
-## 🛠 Principais Tecnologias Front-End 
+## Technology 🚀
+
 -  **React.js** 
 
 ## Project Repository //Repositorio do Projeto
@@ -25,9 +25,7 @@ https://github.com/JacquelineCasali/Teste-Soller
 2. `$ npm install`
 3. `$ npm run dev`
 
-## Website - click here to visit the soller website
 
-https://teste-soller.vercel.app/
 
 ## 📝 Developed  by
 
